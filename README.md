@@ -42,19 +42,21 @@
 
         {
     
-        {id, nombre, grado, universidad},
+        {id, nombre, grado, universidad, 
+        materias
+                [
+                {id, nombre, anio, carreraId},
+                {id, nombre, anio, carreraId}
+                ]
+        },
 
-        {id, nombre, grado, universidad}
-        
+        {id, nombre, grado, universidad, 
+        materias 
+                [
+                {id, nombre, anio, carreraId},
+                {id, nombre, anio, carreraId}
+                ]
         }
-- Materias : 
-        
-        {
-        
-        {id, nombre, anio, carreraId},
-
-        {id, nombre, anio, carreraId}
-
         }
 
 ### Schemas de validacion para metodos POST
