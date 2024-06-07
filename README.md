@@ -26,7 +26,6 @@
 - Joi
 - Express
 - Dotenv
-- Nodemon **(devDependencies)**
 
 ## Modelo implementado
 
