@@ -1,15 +1,28 @@
 const data = require('../../data/data.json')
 
-const carreras = data[0].carreras  //Extraigo del JSON las carreras
+const carreras = data.carreras //Extraigo del JSON las carreras
 
 const getAllCarreras = (req,res) => {
-    res.status(200).json(carreras)
+    //Carreras sin materias
+    const carrerasSinMaterias = carreras.map(carrera => ({
+        id: carrera.id,
+        nombre: carrera.nombre,
+        grado: carrera.grado,
+        universidad: carrera.universidad
+    }));
+    res.status(200).json(carrerasSinMaterias)
 }
 
 const getCarreraById = (req,res) =>{
     const id = req.params.id
     const carrera = carreras.find(carrera => carrera.id == id)
-    res.status(200).json(carrera)
+    const carreraSinMaterias = {
+        id: carrera.id,
+        nombre: carrera.nombre,
+        grado: carrera.grado,
+        universidad: carrera.universidad
+    }
+    res.status(200).json(carreraSinMaterias)
 }
 
 const createCarrera = (req,res) =>{
@@ -19,7 +32,7 @@ const createCarrera = (req,res) =>{
         const listaIds = carreras.map(carrera => carrera.id)
         id = Math.max(...listaIds) + 1
     }
-    carreras.push({id,...data})
+    carreras.push({id,...data,materias:[]})
     return res.status(201).json({mensaje: 'Carrera creada con exito',carrera: carreras[carreras.length-1]})
 }
 

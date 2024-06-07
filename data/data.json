@@ -1,172 +1,170 @@
-[
-    {
-        "carreras": [
-            {
-                "id": 1,
-                "nombre": "Licenciatura en Gestión de las Tecnologías de Información",
-                "grado": "Licenciatura",
-                "universidad": "UNPAZ"
-            },
-            {
-                "id": 2,
-                "nombre": "Licenciatura en Producción y Desarrollo de Videojuegos",
-                "grado": "Licenciatura",
-                "universidad": "UNPAZ"
-            }
-        ]
-    },
-    {
-        "materias": [
-            {
-                "id": 1,
-                "nombre": "Análisis Matemático I",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 2,
-                "nombre": "Arquitectura de Computadoras I",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 3,
-                "nombre": "Introducción a la Programación",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 4,
-                "nombre": "Estructuras Discretas",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 5,
-                "nombre": "Ciencia, Tecnología y Sociedad",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 6,
-                "nombre": "Análisis Matemático II",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 7,
-                "nombre": "Álgebra y Geometría Analítica",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 8,
-                "nombre": "Algoritmos y Programación",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 9,
-                "nombre": "Arquitectura de Computadoras II",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 10,
-                "nombre": "Inglés I",
-                "anio": 1,
-                "carreraId": 1
-            },
-            {
-                "id": 11,
-                "nombre": "Sistemas Operativos I",
-                "anio": 2,
-                "carreraId": 1
-            },
-            {
-                "id": 12,
-                "nombre": "Economía General",
-                "anio": 2,
-                "carreraId": 1
-            },
-            {
-                "id": 13,
-                "nombre": "Inglés II",
-                "anio": 2,
-                "carreraId": 1
-            },
-            {
-                "id": 14,
-                "nombre": "Ingeniería de Software I",
-                "anio": 2,
-                "carreraId": 1
-            },
-            {
-                "id": 15,
-                "nombre": "Paradigmas de Programación",
-                "anio": 2,
-                "carreraId": 1
-            },
-            {
-                "id": 16,
-                "nombre": "Historia de la cultura I",
-                "anio": 1,
-                "carreraId": 2
-            },
-            {
-                "id": 17,
-                "nombre": "La Tecnología y sus usos",
-                "anio": 1,
-                "carreraId": 2
-            },
-            {
-                "id": 18,
-                "nombre": "Literatura y pensamiento",
-                "anio": 1,
-                "carreraId": 2
-            },
-            {
-                "id": 19,
-                "nombre": "Introducción al medio audiovisual",
-                "anio": 1,
-                "carreraId": 2
-            },
-            {
-                "id": 20,
-                "nombre": "Introducción a la comunicación",
-                "anio": 1,
-                "carreraId": 2
-            },
-            {
-                "id": 21,
-                "nombre": "Historia de la cultura II",
-                "anio": 2,
-                "carreraId": 2
-            },
-            {
-                "id": 22,
-                "nombre": "Historia del cine",
-                "anio": 2,
-                "carreraId": 2
-            },
-            {
-                "id": 23,
-                "nombre": "Pensamiento social argentino",
-                "anio": 2,
-                "carreraId": 2
-            },
-            {
-                "id": 24,
-                "nombre": "Fundamentos de la programación I",
-                "anio": 2,
-                "carreraId": 2
-            },
-            {
-                "id": 25,
-                "nombre": "Diseño lúdico I",
-                "anio": 2,
-                "carreraId": 2
-            }
-        ]
-    }
-]
+{
+    "carreras": [
+        {
+            "id": 1,
+            "nombre": "Licenciatura en Gestión de las Tecnologías de Información",
+            "grado": "Licenciatura",
+            "universidad": "UNPAZ",
+            "materias": [
+                {
+                    "id": 1,
+                    "nombre": "Análisis Matemático I",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 2,
+                    "nombre": "Arquitectura de Computadoras I",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 3,
+                    "nombre": "Introducción a la Programación",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 4,
+                    "nombre": "Estructuras Discretas",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 5,
+                    "nombre": "Ciencia, Tecnología y Sociedad",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 6,
+                    "nombre": "Análisis Matemático II",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 7,
+                    "nombre": "Álgebra y Geometría Analítica",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 8,
+                    "nombre": "Algoritmos y Programación",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 9,
+                    "nombre": "Arquitectura de Computadoras II",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 10,
+                    "nombre": "Inglés I",
+                    "anio": 1,
+                    "carreraId": 1
+                },
+                {
+                    "id": 11,
+                    "nombre": "Sistemas Operativos I",
+                    "anio": 2,
+                    "carreraId": 1
+                },
+                {
+                    "id": 12,
+                    "nombre": "Economía General",
+                    "anio": 2,
+                    "carreraId": 1
+                },
+                {
+                    "id": 13,
+                    "nombre": "Inglés II",
+                    "anio": 2,
+                    "carreraId": 1
+                },
+                {
+                    "id": 14,
+                    "nombre": "Ingeniería de Software I",
+                    "anio": 2,
+                    "carreraId": 1
+                },
+                {
+                    "id": 15,
+                    "nombre": "Paradigmas de Programación",
+                    "anio": 2,
+                    "carreraId": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Licenciatura en Producción y Desarrollo de Videojuegos",
+            "grado": "Licenciatura",
+            "universidad": "UNPAZ",
+            "materias": [
+                {
+                    "id": 16,
+                    "nombre": "Historia de la cultura I",
+                    "anio": 1,
+                    "carreraId": 2
+                },
+                {
+                    "id": 17,
+                    "nombre": "La Tecnología y sus usos",
+                    "anio": 1,
+                    "carreraId": 2
+                },
+                {
+                    "id": 18,
+                    "nombre": "Literatura y pensamiento",
+                    "anio": 1,
+                    "carreraId": 2
+                },
+                {
+                    "id": 19,
+                    "nombre": "Introducción al medio audiovisual",
+                    "anio": 1,
+                    "carreraId": 2
+                },
+                {
+                    "id": 20,
+                    "nombre": "Introducción a la comunicación",
+                    "anio": 1,
+                    "carreraId": 2
+                },
+                {
+                    "id": 21,
+                    "nombre": "Historia de la cultura II",
+                    "anio": 2,
+                    "carreraId": 2
+                },
+                {
+                    "id": 22,
+                    "nombre": "Historia del cine",
+                    "anio": 2,
+                    "carreraId": 2
+                },
+                {
+                    "id": 23,
+                    "nombre": "Pensamiento social argentino",
+                    "anio": 2,
+                    "carreraId": 2
+                },
+                {
+                    "id": 24,
+                    "nombre": "Fundamentos de la programación I",
+                    "anio": 2,
+                    "carreraId": 2
+                },
+                {
+                    "id": 25,
+                    "nombre": "Diseño lúdico I",
+                    "anio": 2,
+                    "carreraId": 2
+                }
+            ]
+        }
+    ]
+}
